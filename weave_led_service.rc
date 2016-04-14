@@ -1,0 +1,4 @@
+service weave_led_service /system/bin/weave_led_service
+   class late_start
+   user system
+   group system dbus
